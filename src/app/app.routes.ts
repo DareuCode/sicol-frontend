@@ -3,15 +3,15 @@ import { Routes } from '@angular/router';
 export const routes: Routes = [
     {
         path: "configuration",
-        loadChildren: () => import("./configuration/configuration.routes"),
+        loadChildren: () => import("./pages/configuration/configuration.routes"),
     },
     {
         path: "comercial",
-        loadChildren: () => import("./comercial/comercial.routes"),
+        loadChildren: () => import("./pages/comercial/comercial.routes"),
     },
     {
         path: "finance",
-        loadChildren: () => import("./finance/finance.routes"),
+        loadChildren: () => import("./pages/finance/finance.routes"),
     },
     {
         path: "**",
